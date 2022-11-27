@@ -33,6 +33,8 @@ Fill Start Date
     ${start_date}        Get Start Date
 
     FOR    ${number}    IN    @{start_date}
-        Keyboard Key    press    ${number}
-        
+        Keyboard Key    press    ${number}    
     END
+
+Submmit Enroll Form
+    Click    css=button >> text=Salvar
