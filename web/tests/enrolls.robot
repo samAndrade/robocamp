@@ -5,6 +5,8 @@ Documentation        Suite de testes de matriculas de alunos
 Resource    ../resources/base.resource
 Resource    ../resources/services/sessions.resource
 
+Test Teardown        Take Screenshot
+
 *** Test Cases ***
 Deve matricular um aluno
     

@@ -2,7 +2,9 @@
 Documentation        Suite de testes de autenticação'
 ...                  Administrador deve acessar o portal de gestão de academias
 
-Resource    ../resources/base.resource
+Resource        ../resources/base.resource
+
+Test Teardown        Take Screenshot 
 
 *** Test Cases ***
 Login do Administrador
